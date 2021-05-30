@@ -1,19 +1,13 @@
 import React from 'react'
-import logo from './logo.svg'
 import './App.css'
+import { useQuery } from 'react-query'
 
 function App() {
+	// let's go
+
 	return (
 		<div className="App">
-			<header className="App-header">
-				<img src={logo} className="App-logo" alt="logo" />
-				<p>
-					Edit <code>src/App.jsx</code> and save to reload!
-				</p>
-				<span className="App-link">
-					Hope you're enjoying your react-query course :)
-				</span>
-			</header>
+			<h2>Blog posts</h2>
 		</div>
 	)
 }
