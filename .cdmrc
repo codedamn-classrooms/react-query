@@ -1,4 +1,4 @@
 terminal-one: |
   yarn install
-  static-server -p 1337 --no-cache
+  yarn snowpack dev --port 1337
 tabs: ["src/App.jsx"]
