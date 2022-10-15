@@ -1,0 +1,4 @@
+tabs: ["src/App.jsx"]
+terminal-one: |
+  yarn install
+  yarn snowpack dev --port 1337
