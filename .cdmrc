@@ -1,2 +1,4 @@
-terminal-one: static-server -p 1337 --no-cache
+terminal-one: |
+  yarn install
+  static-server -p 1337 --no-cache
 tabs: ["src/App.jsx"]
